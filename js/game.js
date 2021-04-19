@@ -31,7 +31,7 @@ class Game{
     
     player2 = createSprite(800,500);
     player2.addImage("player2", player_img);
-    players=[player1,player2];
+    allPlayers=[player1,player2];
 
         }
     

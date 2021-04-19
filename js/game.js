@@ -64,7 +64,7 @@ class Game{
                     
                      //text to display player score.
                      
-                     text("Player Score:"+player.score,100,500);
+                     text("Player 1:"+allPlayers.player1.score,100,500);
                  
                  }
                 
@@ -103,6 +103,8 @@ class Game{
                   if (player.index !== null) {
                      //fill code here, to destroy the objects. (Use the one in the class project 39)
                      // add the condition to calculate the score. and use update ti update the values in the database.
+                      
+                      player.score = player.score+1;
                   }
                 
 

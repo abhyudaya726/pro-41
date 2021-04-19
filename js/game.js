@@ -71,8 +71,8 @@ class Game{
                         fill("yellow");
                         textSize(25);
 
-                       // text(allPlayers.player1.name+": "+allPlayers.player1.score ,25,25);
-                      //  text(allPlayers.player2.name+": "+allPlayers.player2.score ,25,60);
+                        text(allPlayers.player1.name+": "+allPlayers.player1.score ,25,25);
+                        text(allPlayers.player2.name+": "+allPlayers.player2.score ,25,60);
                         
                      }
              }

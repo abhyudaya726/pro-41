@@ -63,6 +63,8 @@ class Game{
                      }
                     
                      //text to display player score.
+                     
+                     text("Player Score:"+player.score,100,500);
                  
                  }
                 

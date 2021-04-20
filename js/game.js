@@ -113,13 +113,13 @@ class Game{
 
                         if(fruit.isTouching(player1)){
                             fruit.destroy();
-                           // player.score = ++score1;
+                            player.score = ++score1;
                             player.update();
                         }
 
                         if(fruit.isTouching(player2)){
                             fruit.destroy();
-                         //   player.score = ++score2;
+                            player.score = ++score2;
                             player.update();
                         }
                     }
